@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Watchdog"
-  s.version          = "2.1"
+  s.version          = "2.2"
   s.summary          = "Class for logging excessive blocking on the main thread."
 
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/wojteklu/Watchdog"
   s.license          = 'MIT'
   s.author           = { "Wojtek Lukaszuk" => "lukaszuk.wojtek@gmail.com" }
-  s.source           = { :git => "https://github.com/wojteklu/Watchdog.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/mperovic/Watchdog.git", :tag => s.version }
   s.social_media_url = 'https://twitter.com/wojteklu'
 
   s.ios.deployment_target = '8.0'
